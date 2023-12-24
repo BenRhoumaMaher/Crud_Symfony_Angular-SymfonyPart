@@ -18,7 +18,6 @@ class AppFixtures extends Fixture
 
             $manager->persist($project);
         }
-
         $manager->flush();
     }
 }
